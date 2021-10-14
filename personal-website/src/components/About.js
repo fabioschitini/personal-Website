@@ -11,13 +11,13 @@ return(
         
     
        <h2 >About me</h2>
-       <p>I am an Aspiring Web Developer.I am a JaveScript developer, using React to create
-         fronteEnd functionality and,at least for now,
+       <p>I am an Aspiring Web Developer.I am a JavaScript developer, using React to create
+         frontEnd functionality and,at least for now,
         using fireBase(backend as service) to maintain the backEnd.
-        I intend to study node.js on the net one the next
+        I intend to study node.js on the net on the next
         months to have an skill on backend as well.
-        I have done  several projects on <a href='https://www.theodinproject.com'>The odin projeect</a>,
-        where I lerned most of my current skils.
+        I have done  several projects on <a href='https://www.theodinproject.com' target="_blank" rel="noopener noreferrer">The odin projeect</a>,
+        where I learned most of my current skils.
         I am always learning, and loking forward to an carrer as an Web Developer
            
              </p>
@@ -31,11 +31,19 @@ return(
 
        </ul>
        <h2 >Courses</h2>
-       <p><a href='https://www.theodinproject.com'>The Odin Project JS Course</a></p>
+       <p><a href='https://www.theodinproject.com' target="_blank" rel="noopener noreferrer">The Odin Project JS Course</a></p>
        </div>
        <div id='im'>
           <img id='profile' alt='profile' src='https://images.ctfassets.net/hrltx12pl8hq/3MbF54EhWUhsXunc5Keueb/60774fbbff86e6bf6776f1e17a8016b4/04-nature_721703848.jpg?fit=fill&w=480&h=270' />
+         <h3>Favorite Tecnologies </h3>
+         <div id='tecnologies'>
+<a href='https://www.javascript.com/' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://i0.wp.com/www.casamidia.com.br/wp-content/uploads/2016/03/js-logo.png?ssl=1'/> </a>
+<a href='https://www.w3schools.com/html/' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://w7.pngwing.com/pngs/390/229/png-transparent-logo-html5-brand-design-text-logo-number.png'/> </a>
+<a href='https://developer.mozilla.org/pt-BR/docs/Web/CSS' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png'/> </a>
+<a href='https://reactnative.dev/' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png'/> </a>
+<a href='https://firebase.google.com/?hl=pt' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png?hl=pt-br'/> </a>
 
+         </div>
        </div>
     </div>
     </div>
