@@ -1,0 +1,48 @@
+#ct{
+    position: absolute;
+    left: 23%;
+    width: 70%;
+}
+
+#contact-container{ 
+    
+    height: 758px;
+    margin: none;
+    margin-bottom: 0;
+}
+.contact-info{
+    font-size: 35px;
+    text-align: justify;
+    margin: 30px;
+}
+#linkedin{
+    width: 90px;
+    height: 50px;
+}
+
+.social-media-list{
+    padding: 0;
+}
+
+#link-text{
+    list-style-type: none;
+}
+.contact-para{
+    font-size: 35px;
+    font-size: 35px;
+    margin: 30px;
+}
+#contact-image{
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    width: 600px;
+}
+.link{
+    text-decoration: none;
+    display: flex;
+    color: #6e6ed3;
+    margin: 10px;
+    list-style-type: none;
+}

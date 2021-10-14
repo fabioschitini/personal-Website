@@ -1,0 +1,38 @@
+#container-about{
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+}
+
+#im{
+    width: 300px;
+    height: 750px;
+    margin-left: 70px;
+}
+#profile{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+h2{
+    text-align: justify;
+    font-size: 35px;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+    font-style: italic;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 0;
+    margin: 0;
+    text-align: center;
+}
+#tech-list{
+    list-style-type: none;
+}
+#container{
+    position: absolute;
+    left: 23%;
+}

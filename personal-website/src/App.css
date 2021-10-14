@@ -1,0 +1,21 @@
+.App{
+  display: flex;
+    flex-direction: row;
+    height: 750px;
+}
+ul{
+  list-style-type: none;
+
+}
+a{
+  text-decoration: none;
+  color: #6e6ed3;
+  margin: 10px;
+  list-style-type: none;
+}
+a:hover{
+text-decoration: underline;
+box-shadow: orangered;
+color: black
+
+}
