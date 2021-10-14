@@ -34,7 +34,7 @@ return(
        <p><a href='https://www.theodinproject.com' target="_blank" rel="noopener noreferrer">The Odin Project JS Course</a></p>
        </div>
        <div id='im'>
-          <img id='profile' alt='profile' src='https://images.ctfassets.net/hrltx12pl8hq/3MbF54EhWUhsXunc5Keueb/60774fbbff86e6bf6776f1e17a8016b4/04-nature_721703848.jpg?fit=fill&w=480&h=270' />
+          <img id='profile' alt='profile' src='https://firebasestorage.googleapis.com/v0/b/learning-firebase-b9b2a.appspot.com/o/sasd.jpg?alt=media&token=61a21b0d-82a4-4771-80bf-0afe8ff2191a' />
          <h3>Favorite Tecnologies </h3>
          <div id='tecnologies'>
 <a href='https://www.javascript.com/' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://i0.wp.com/www.casamidia.com.br/wp-content/uploads/2016/03/js-logo.png?ssl=1'/> </a>
