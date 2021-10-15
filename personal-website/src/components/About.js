@@ -42,6 +42,7 @@ return(
 <a href='https://developer.mozilla.org/pt-BR/docs/Web/CSS' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png'/> </a>
 <a href='https://reactnative.dev/' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png'/> </a>
 <a href='https://firebase.google.com/?hl=pt' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png?hl=pt-br'/> </a>
+<a href='https://github.com/fabioschitini' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'/> </a>
 
          </div>
        </div>
