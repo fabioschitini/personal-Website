@@ -10,7 +10,7 @@ return(
        <Link to='/projects'> <li className='Header-list'>Projects </li> </Link> 
 
         <Link to="/contact"> <li className='Header-list'> Contact  </li></Link>    
-        <a id='CV' href='https://firebasestorage.googleapis.com/v0/b/learning-firebase-b9b2a.appspot.com/o/Web%20Developer%20Resume.pdf?alt=media&token=431df2fe-8a8b-4b7a-b862-a1090a843bc2'
+        <a id='CV' href='https://firebasestorage.googleapis.com/v0/b/learning-firebase-b9b2a.appspot.com/o/Web%20Developer%20Resume.pdf?alt=media&token=d1657668-075c-4b66-af78-59a06cf64814'
          download='CV.pdf' target="_blank" rel="noopener noreferrer" > CV↓  <li className='Header-list'> 
 
         </li> </a>
