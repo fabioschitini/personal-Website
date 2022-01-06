@@ -26,7 +26,7 @@ return(
        <ul id='tech-list'>
           <li>JS</li>
           <li>HTML</li>
-          <li>CSS</li>
+          <li>CSS</li> 
           <li>React</li>
           <li>Firebase(database and backend as a service)</li>
 
