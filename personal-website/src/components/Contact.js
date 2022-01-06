@@ -28,8 +28,6 @@ return(
        <p className='contact-para'> +55 (75)99220-4987 </p>
     </div> 
     </div>
-     
-
        
     
 )
