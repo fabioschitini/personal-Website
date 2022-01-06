@@ -29,9 +29,7 @@ return(
      
 
        
-    </div>
-    <img id='contact-image' alt='coll' src='https://image.freepik.com/free-vector/vector-illustration-super-professional-programmer-project-manager-funny-cartoon-character_122058-445.jpg'/>
-    </div>
+    
 )
 }
 
