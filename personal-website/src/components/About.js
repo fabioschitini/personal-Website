@@ -10,7 +10,7 @@ return(
 
         
     
-       <h2 >Ab me</h2>
+       <h2 >About me</h2>
        <p>
     I am an Aspiring Web Developer. I am a JavaScript developer, using React to create
          frontEnd functionality and, at least for now,
