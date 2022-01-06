@@ -11,14 +11,15 @@ return(
         
     
        <h2 >About me</h2>
-       <p>I am an Aspiring Web Developer.I am a JavaScript developer, using React to create
-         frontEnd functionality and,at least for now,
+       <p>
+    I am an Aspiring Web Developer. I am a JavaScript developer, using React to create
+         frontEnd functionality and, at least for now,
         using fireBase(backend as service) to maintain the backEnd.
-        I intend to study node.js on the net on the next
-        months to have an skill on backend as well.
+        I intend to study node.js on the net in the next few
+        months to have a skill on backend as well.
         I have done  several projects on <a href='https://www.theodinproject.com' target="_blank" rel="noopener noreferrer">The odin projeect</a>,
         where I learned most of my current skils.
-        I am always learning, and loking forward to an carrer as an Web Developer
+        I am always learning, and looking forward to a career as a Web Developer
            
              </p>
        <h2>Tecnologies </h2>
