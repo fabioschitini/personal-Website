@@ -10,10 +10,10 @@ return(
        <Link to='/projects'> <li className='Header-list'>Projects </li> </Link> 
 
         <Link to="/contact"> <li className='Header-list'> Contact  </li></Link>    
-        <a id='CV' href='https://www.scribd.com/document/551437771/Web-Developer-Resume'
+        <a id='CV' href='https://www.scribd.com/document/553485298/My-Resume'
          download='CV.pdf' target="_blank" rel="noopener noreferrer" > CV↓  <li className='Header-list'> 
         </li> </a>
-        <a id='CV' href='https://www.scribd.com/document/551648970/Web-Developer-Resume-2' > Curriculo↓ </a>
+        <a id='CV' href='https://www.scribd.com/document/553485615/Web-Developer-Resume-3' > Curriculo↓ </a>
         
     </ul>
     </div>
