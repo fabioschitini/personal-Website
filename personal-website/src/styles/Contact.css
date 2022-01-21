@@ -11,7 +11,6 @@
     margin-bottom: 0;
 }
 .contact-info{
-    font-size: 35px;
     text-align: justify;
     margin: 30px;
 }
@@ -27,8 +26,6 @@
     list-style-type: none;
 }
 .contact-para{
-    font-size: 35px;
-    font-size: 35px;
     margin: 30px;
 }
 #contact-image{
@@ -45,3 +42,41 @@
     margin: 10px;
     list-style-type: none;
 }
+
+@media (max-width:700px){
+  
+    #container{
+max-width: 100px;
+width: 20%;
+font-size: 8px;
+border-left-style: solid;
+display: flex;
+flex-direction: column;
+padding-left: 100px;
+padding-left: 19px;
+border-left-width: 0px;
+}
+    
+    #profile{
+        width: 80px;
+border-radius: 50%;
+left:0;
+    }
+    .logo-tech{
+        width: 20px;
+        margin:0;
+    }
+    #im{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:700px){
+  
+
+    #linkedin{
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+    }
+      }

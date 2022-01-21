@@ -4,8 +4,8 @@ return(
 <div id='container'>
 
 <h1>Fabio Schitini</h1>
+
     <div id='container-about'>
-       
         <div id='main-info'>
 
         
