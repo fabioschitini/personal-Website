@@ -16,7 +16,8 @@
  }
 .Header-list{
     cursor: pointer;
-    color: white
+    color: white;
+    font-size: 20px;
 }
 .Header-list:hover{
     color: red;

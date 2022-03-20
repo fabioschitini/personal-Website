@@ -14,7 +14,7 @@ return(
         <a id='CV' href='https://www.scribd.com/document/553485298/My-Resume'
          download='CV.pdf' target="_blank" rel="noopener noreferrer" > CV↓  <li className='Header-list'> 
         </li> </a>
-        <a   target="_blank" rel="noopener noreferrer" id='CV' href='https://www.scribd.com/document/553485615/Web-Developer-Resume-3' > Curriculo↓ </a>
+        <a   target="_blank" rel="noopener noreferrer" id='CV' href='https://www.scribd.com/document/565717418/My-Resume-1' > Curriculo↓ </a>
         
     </ul>
     </div>
