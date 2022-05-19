@@ -9,15 +9,13 @@ return(
                  <li className='social-media-list'>
                  <a className='link' href='https://www.linkedin.com/in/fabio-schitini-alves-de-oliveira-4022b4194/?trk=public-profile-join-page' 
                  target="_blank" rel="noopener noreferrer">
-                <img id='linkedin' alt='linkedin' src='https://img.flaticon.com/icons/png/512/174/174857.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF'/> 
-                <p id='link-text'>https://www.linkedin.com/</p>
+                <img id='linkedin' alt='linkedin' src='https://expertdigital.net/wp-content/uploads/2018/11/linkedin-logo.png'/> 
             </a>
             </li>
             <li className='social-media-list'>
                  <a className='link' href='https://github.com/fabioschitini' 
                  target="_blank" rel="noopener noreferrer">
                 <img id='linkedin' alt='linkedin' src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'/> 
-                <p id='link-text'>https://github.com/fabioschitini</p>
             </a>
             </li>
             </ul>

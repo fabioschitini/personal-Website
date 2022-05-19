@@ -44,11 +44,16 @@
 width: 20%;
 margin-right: 20ppx;
 border: 0;
-padding-left: 16px;
 margin-right: 0px;
 padding-right: 10px;
     }
     #ul-header{
 top: -250px;
     }
+}
+
+
+
+.projects{
+    transition: margin 2s;
 }
