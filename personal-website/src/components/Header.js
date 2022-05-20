@@ -4,22 +4,16 @@ import {useState} from "react"
 
 const Header=()=>{
     //       <Link to='/projects'> <li className='Header-list'>Projects </li> </Link> 
-    const [showText,setShowText]=useState(false)
 
 return(
 <div id='Header'>
     <ul id='ul-header' >
-        <Link to="/personal-Website"> <li className='Header-list' >About Me</li></Link> 
-        
-       
-         {showText
-         ?
+        <Link to="/personal-Website"> <li className='Header-list' >About Me</li></Link>  
          <div>
-         <li  onClick={()=>setShowText(!showText)} className='Header-list projects' >Projects↓</li>    
+         <li   className='Header-list projects' >Projects↓</li>    
          <Link to="/inventory"> <li   className='Header-list projects' >Inventory Application</li></Link>
          <Link to="/registrar"> <li   className='Header-list projects' >Registrar Clientes</li></Link>  
          </div>
-         :  <li  onClick={()=>setShowText(!showText)} className='Header-list projects' >Projects↓</li>}
         <Link to="/contact"> <li className='Header-list'> Contact  </li></Link>    
         <a id='CV' href='https://www.scribd.com/document/553485298/My-Resume'
          download='CV.pdf' target="_blank" rel="noopener noreferrer" > CV↓  <li className='Header-list'> 
