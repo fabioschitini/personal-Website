@@ -50,9 +50,6 @@ return(
             </ul>
              </div>
              </div>
-
-       <h2 >Courses</h2>
-       <p><a href='https://www.theodinproject.com' target="_blank" rel="noopener noreferrer">The Odin Project JS Course</a></p>
        </div>
        <div id='im'>
           <img id='profile' alt='profile' src='https://firebasestorage.googleapis.com/v0/b/learning-firebase-b9b2a.appspot.com/o/sasd.jpg?alt=media&token=61a21b0d-82a4-4771-80bf-0afe8ff2191a' />
