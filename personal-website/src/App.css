@@ -4,6 +4,9 @@
     flex-direction: row;
     height: 750px;
 }
+body{
+  height: 100vh;
+}
 ul{
   list-style-type: none;
   padding: 0;

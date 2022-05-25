@@ -46,9 +46,15 @@ margin-right: 20ppx;
 border: 0;
 margin-right: 0px;
 padding-right: 10px;
+flex: 1;
     }
     #ul-header{
 top: -250px;
+    }
+
+
+    .Header-list{
+        font: 12px;
     }
 }
 
@@ -56,4 +62,7 @@ top: -250px;
 
 .projects{
     transition: margin 2s;
+}
+.Header-projects{
+    margin: 7px;
 }

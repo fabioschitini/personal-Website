@@ -9,7 +9,7 @@ return(
 <div id='Header'>
     <ul id='ul-header' >
         <Link to="/personal-Website"> <li className='Header-list' >About Me</li></Link>  
-         <div>
+         <div className='Header-projects'>
          <li   className='Header-list projects' >Projects↓</li>    
          <Link to="/inventory"> <li   className='Header-list projects' >Inventory Application</li></Link>
          <Link to="/registrar"> <li   className='Header-list projects' >Registrar Clientes</li></Link>  
