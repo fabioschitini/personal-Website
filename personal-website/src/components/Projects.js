@@ -2,84 +2,71 @@ import '../styles/Project.css'
 import {useState} from "react"
 
 const Project=()=>{
-    const [showText,setShowText]=useState(false)
-    const projects=[
-        {text1:'hairBook',color:'#9f3535',finalText1:"Code",finalText2:"Live Review",finalText3:"An 'copy' of FaceBook",
-linkCode:'https://github.com/fabioschitini/hairBook',linkPreview:'https://fabioschitini.github.io/hairBook/',
-
-},
-{text1:'Where is Waldo',color:'dimgrey',finalText1:"Code",finalText2:"Live Review",finalText3:"Fun game of Where is Waldo",
-linkCode:'https://github.com/fabioschitini/Waldo',linkPreview:'https://fabioschitini.github.io/Waldo/'
-},
-{text1:'Memory Card',color:'mediumpurple',finalText1:"Code",finalText2:"Live Review",finalText3:"Play a Game of memory Card",
-linkCode:'https://github.com/fabioschitini/Memory-Card',linkPreview:'https://fabioschitini.github.io/Memory-Card/'
-},
-{text1:'Shopin-Cart',color:'lightpink',finalText1:"Code",finalText2:"Live Review",finalText3:"An generic Shoping website",
-linkCode:'https://github.com/fabioschitini/Shoping-Cart',linkPreview:'https://fabioschitini.github.io/Shoping-Cart/'
-},
-{text1:'CV',color:'goldenrod',finalText1:"Code",finalText2:"Live Review",finalText3:"Make you own CV!",
-linkCode:'https://github.com/fabioschitini/CV-Application',linkPreview:'https://fabioschitini.github.io/CV-Application/'
-},
-{text1:'Calculator',color:'cadetblue',finalText1:"Code",finalText2:"Live Review",finalText3:"One Web Calculator",
-linkCode:'https://github.com/fabioschitini/Calculator',linkPreview:'https://fabioschitini.github.io/Calculator/'
-},
-        {text1:'Tic-Tac-Toe',color:'#9b8d8d',finalText1:"Code",finalText2:"Live Review",finalText3:"An Game of Tic Tac Toe",
- linkCode:'https://github.com/fabioschitini/Tac-Toe',linkPreview:'https://fabioschitini.github.io/Tac-Toe/'
-},
-
- {text1:'Rock-Pape-Scissors',color:'yellowgreen',finalText1:"Code",finalText2:"Live Review",finalText3:"Classic Childhood Game",
-linkCode:'https://github.com/fabioschitini/rock-paper-scissors',linkPreview:'https://fabioschitini.github.io/rock-paper-scissors/'
-},
-{text1:'Etch a Sketch',color:'palegoldenrod',finalText1:"Code",finalText2:"Live Review",finalText3:"Dram a sketch on a grid",
-linkCode:'https://github.com/fabioschitini/ETCH-A-SKETCH',linkPreview:'https://fabioschitini.github.io/ETCH-A-SKETCH/'
-},
-
-{text1:'Library',color:'darkseagreen',finalText1:"Code",finalText2:"Live Review",finalText3:"Story info about your books",
-linkCode:'https://github.com/fabioschitini/Library',linkPreview:'https://fabioschitini.github.io/Library/?'
-},
-{text1:'Restauraunt',color:'orangered',finalText1:"Code",finalText2:"Live Review",finalText3:"A menu from a restaraunt",
-linkCode:'https://github.com/fabioschitini/Restaurant',linkPreview:'https://fabioschitini.github.io/Restaurant/'
-},
-
-
-
-
-]
-
-function mouseEnter(e){
-    console.log(e.target.attributes.value.value)
-setShowText(e.target.attributes.value.value)
-
-}
-function mouseLeave(){
-    setShowText(false)
-    }
 return(
-<div id='container-project'>
-<div id='grid'> 
-{projects.map(project=>{
-return <div>
-        {(showText===project.text1)? 
-            <div value={project.text1} style={{backgroundColor:project.color}} id={project.text1} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} className='grid-square'>
-        <h1  value={project.text1} className='Title'>{project.text1}</h1>
+<main>
 
-        
- <p >{project.finalText3}</p>  
- <div className='details'>
-      <a className='link-projects' href={project.linkPreview} target="_blank" rel="noopener noreferrer">{project.finalText2}</a> 
-      <a className='link-projects' href={project.linkCode} target="_blank" rel="noopener noreferrer">{project.finalText1}</a> 
+<section class="py-5 text-center container">
+  <div class="row py-lg-5">
+    <div class="col-lg-6 col-md-8 mx-auto">
+      <h1 class="fw-light">Main Projects</h1>
+      <p class="lead text-muted">Bellow is located my mains projects that I did  over the time, fell free to see and enjoy.</p>
+      <p>
+        <a href="https://github.com/fabioschitini" class="btn btn-primary my-2">My GitHub</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="album py-5 bg-light">
+  <div class="container">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src='https://firebasestorage.googleapis.com/v0/b/learning-firebase-b9b2a.appspot.com/o/2022-06-23%20(4).png?alt=media&token=dfea89e4-fbbf-42ff-b0a9-7d520437fbac'/>
+
+          <div class="card-body">
+            <p class="card-text">A project where I first used Node and Express to create an API on my Backend, and React on my front-end,where I Used express to build an API, where you can add clients,Edit it's info and delete it</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a target="_blank" rel="noopener noreferrer" href='https://intense-reaches-30713.herokuapp.com/catalog' class="btn btn-sm btn-outline-secondary">View</a>
+                <a target="_blank" rel="noopener noreferrer" href='https://github.com/fabioschitini/Registrar-Clientes' class="btn btn-sm btn-outline-secondary">Code</a>
+              </div>
+             
+            </div>
+          </div>
         </div>
-</div>
-      :<div value={project.text1} style={{backgroundColor:project.color}} id={project.text1} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} className='grid-square'>
-      <h1 style={{marginTop:'50px'}} value={project.text1} className='Title'>{project.text1}</h1>
       </div>
 
-    }
+      <div class="col">
+        <div class="card shadow-sm">
+        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src='https://firebasestorage.googleapis.com/v0/b/learning-firebase-b9b2a.appspot.com/o/2022-06-23%20(2).png?alt=media&token=24270264-4b12-46ae-93fa-72254fc09285'/>
 
+          <div class="card-body">
+            <p class="card-text">A project where you can Add,Update,Delete and Visualize Games, it`s plataforms and categorys, built using Node.js,Express and MongoDB.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+              <a target="_blank" rel="noopener noreferrer" href='https://fabioschitini.github.io/Registrar-Clientes/' class="btn btn-sm btn-outline-secondary">View</a>
+                <a target="_blank" rel="noopener noreferrer" href='https://github.com/fabioschitini/inventory-application' class="btn btn-sm btn-outline-secondary">Code</a>
+              </div>
+              <small class="text-muted">9 mins</small>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    
+   
+     
+
+    
+     
+      
+    </div>
+  </div>
 </div>
-})}
-</div>
-</div>
+
+</main>
 )
 }
 

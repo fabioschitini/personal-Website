@@ -3,7 +3,12 @@
     flex-direction: row;
     height: 750px;
 }
-
+#linkedin{
+    width: 10%;
+}
+.info{
+    margin-left: 50px;
+}
 #im{
     width: 300px;
     margin-left: 70px;
@@ -29,10 +34,7 @@ h1{
 #tech-list{
     list-style-type: none;
 }
-#container{
-    position: absolute;
-    left: 23%;
-}
+
 #tecnologies{
 display: flex;
 flex-wrap: wrap;
@@ -50,14 +52,6 @@ h3{
   @media (max-width:700px){
   
 
-    #container{
-max-width: 150px;
-width: 20%;
-font-size: 20px;
-padding-left: 100px;
-padding-left: 19px;
-border-left-width: 0px;
-}
     
     #profile{
         width: 120px;
@@ -77,14 +71,6 @@ left:0;
   @media (max-width:500px){
   
 
-    #container{
-max-width: 100px;
-width: 20%;
-font-size: 18px;
-padding-left: 100px;
-padding-left: 19px;
-border-left-width: 0px;
-}
     
     #profile{
         width: 80px;
@@ -100,4 +86,3 @@ left:0;
     }
 
   }
-

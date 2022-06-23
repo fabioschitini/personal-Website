@@ -18,11 +18,7 @@ flex-wrap: wrap;
     font-size: 30px;
     transition: margin 1s;
 }
-#container-project{
-    position: absolute;
-    left: 23%;
-    width: 70%;
-}
+
 .details{
     display: flex;
 }

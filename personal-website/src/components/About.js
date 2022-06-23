@@ -1,12 +1,12 @@
 import '../styles/About.css'
 const About=()=>{
 return(
-<div id='container'>
+<div >
 
 <h1>Fabio Schitini</h1>
 
     <div id='container-about'>
-        <div id='main-info'>
+        <div className='info'>
 
         
     
@@ -60,7 +60,7 @@ return(
 <a href='https://developer.mozilla.org/pt-BR/docs/Web/CSS' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png'/> </a>
 <a href='https://reactnative.dev/' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png'/> </a>
 <a href='https://nodejs.org/en/' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png'/> </a>
-<a href='https://www.mongodb.com/atlas/database' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_plain_wordmark_logo_icon_146423.png'/> </a>
+<a href='https://www.mongodb.com/atlas/database' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://www.svgrepo.com/show/331488/mongodb.svg'/> </a>
 <a href='https://github.com/fabioschitini' target="_blank" rel="noopener noreferrer"> <img alt='tech' className='logo-tech' src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'/> </a>
 
          </div>
